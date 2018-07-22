@@ -1,0 +1,350 @@
+
+#explain {
+    text-align: center;
+    font-size: 20px;
+    background-color: rgba(94, 41, 41, 0.233);
+    padding: 10px;
+    margin: 50px auto 30px auto;
+    border-radius: 40%;
+    -webkit-border-radius: 40%;
+    -moz-border-radius: 40%;
+    -ms-border-radius: 40%;
+    -o-border-radius: 40%;
+    width: 80%;
+}
+
+header {
+    text-align: center;
+    background-color: rgba(0, 0, 255, 0.096);
+    padding: 20px;
+    top: -25px;
+    left: -10px;
+    position: relative;
+    width: 100%;
+    
+}
+
+.colors {
+    letter-spacing: 0.5rem;
+    font-size: 2.5rem;
+    font-weight: 700;
+    color: orange;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+
+.contain {
+    text-align: center;
+    margin: 0 auto;
+}
+
+.container {
+    width: 200px;
+    height: 260px;
+    position: relative;
+    border: 1px solid #ccc;
+    -webkit-perspective: 800px;
+    -moz-perspective: 800px;
+    -o-perspective: 800px;
+    perspective: 800px;
+    display: inline-block;
+}
+.card {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    -webkit-transition: -webkit-transform 1s;
+    -moz-transition: -moz-transform 1s;
+    -o-transition: -o-transform 1s;
+    transition: transform 1s;
+    -webkit-transform-style: preserve-3d;
+    -moz-transform-style: preserve-3d;
+    -o-transform-style: preserve-3d;
+    transform-style: preserve-3d;
+    -webkit-transform-origin: 50% 50%;
+}
+.card div {
+    display: block;
+    height: 100%;
+    width: 100%;
+    line-height: 10px;
+    color: white;
+    text-align: center;
+    font-weight: bold;
+    font-size: 12px;
+    position: absolute;
+    -webkit-backface-visibility: hidden;
+    -moz-backface-visibility: hidden;
+    -o-backface-visibility: hidden;
+    backface-visibility: hidden;
+    
+}
+
+/* CARD FRONT */
+
+.card .front p {
+    margin-top: 60%;
+    font-size: 200%;
+}
+
+#one {
+  background: rgba(255, 0, 0, 0.678);
+}
+
+#one:hover{
+    background: red;
+}
+
+#two {
+    background: rgba(0, 0, 255, 0.623);
+}
+
+#two:hover {
+    background: blue;
+}
+
+#three {
+    background: rgba(255, 255, 0, 0.527);
+}
+#three:hover {
+    background: yellow;
+}
+
+#three p {
+    color: black;
+}
+
+#four {
+    background: rgba(255, 166, 0, 0.699);
+}
+
+#four:hover {
+    background: orange;
+}
+
+#five {
+    background: rgba(0, 128, 0, 0.63);
+}
+
+#five:hover {
+    background: green;
+}
+
+#six {
+    background:rgba(133, 87, 27, 0.692);
+}
+
+#six:hover {
+    background: rgb(133, 87, 27);
+}
+
+#seven {
+    background: rgba(0, 0, 0, 0.658);
+}
+
+#seven:hover {
+    background: black;
+}
+
+#eight {
+    background: rgb(194, 207, 216);
+}
+
+#eight p {
+    color: black;
+    
+}
+
+#eight:hover {
+    background: white;
+}
+
+#nine {
+    background: rgba(255, 192, 203, 0.651);
+}
+
+#nine:hover {
+    background: pink;
+}
+
+#ten {
+    background: rgba(137, 43, 226, 0.623);
+}
+
+#ten:hover{
+    background: blueviolet;
+}
+/* CARD BACK */
+
+.card .back {
+    background: white;
+    -webkit-transform: rotateY( 180deg );
+    -moz-transform: rotateY( 180deg );
+    -o-transform: rotateY( 180deg );
+    transform: rotateY( 180deg );
+    font-size: 15px;
+    box-sizing: border-box;
+    padding: 5%;
+    
+}
+
+.card .back div {
+    color: black;
+    position: relative;
+    margin-top: 0;
+    box-sizing: border-box;
+    font-size: 15px;
+    line-height: 20px;
+
+    
+}
+
+/* H1 */
+
+.card .back h1 {
+    font-size: 20px;
+    position: inherit;
+}
+
+
+#red {
+    color: red;
+}
+
+#blue {
+    color: blue;
+}
+
+#yellow {
+    color: rgb(139, 139, 11);
+}
+
+#orange {
+    color: rgb(211, 143, 18);
+}
+
+#purple {
+    color: blueviolet;
+}
+
+#green {
+    color: green;
+}
+
+#brown {
+    color:rgb(105, 69, 22);
+}
+
+#black {
+    color: black;
+}
+
+#white {
+    color: rgb(125, 149, 151);
+}
+
+#pink {
+    color: rgb(218, 157, 167);
+}
+
+.card .back p {
+    position: relative;
+    margin-top: 0;
+    
+}
+
+.card.flipped {
+    -webkit-transform: rotateY( 180deg );
+    -moz-transform: rotateY( 180deg );
+    -o-transform: rotateY( 180deg );
+    transform: rotateY( 180deg );
+}
+
+/* //////////NAV LINKS////////*/
+
+ul {
+    padding: 0;
+    width: 100%; 
+    text-align: center;
+    
+}
+
+li {
+    display: inline;
+    
+}
+
+.nav {
+    outline: none;
+    text-decoration: none;
+    display: block;
+    text-align: center;
+    line-height: 3;
+    color: black;
+    width: 80%;
+    margin: 0 auto;
+}
+
+
+
+.nav:link, .nav:visited, .nav:focus {
+    background: orange;
+    color: white;
+}
+.nav:hover {
+    background: yellowgreen;
+}
+
+.nav:active {
+    background: red;
+    color: white;
+}
+
+@media screen and (min-width: 1248px){
+    .contain {
+        max-width: 1200px;
+    }
+
+    
+}
+
+@media screen and (min-width: 692px){
+    .nav {
+        display: inline-block;
+        width: 200px;
+        margin-right: 5%;
+    }
+
+    li:last-child .nav {
+        margin-right: 0;
+    }
+    
+}
+
+
+
+
+/* FOOTER */
+
+footer {
+    text-align: right;
+    margin: 20px;
+    
+}
+
+
+
+footer ul {
+    width: 50%;
+    margin: 0 auto;
+}
+footer li {
+    display: block;
+    text-align: left;
+}
+
+#more_text {
+    display: none;
+    
+}
