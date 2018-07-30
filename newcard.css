@@ -293,11 +293,11 @@ li {
     color: white;
 }
 .nav:hover {
-    background: yellowgreen;
+    background: purple;
 }
 
 .nav:active {
-    background: red;
+    background:rgba(224, 224, 22, 0.418);
     color: white;
 }
 
